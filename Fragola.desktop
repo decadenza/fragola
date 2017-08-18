@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Fragola
+Comment=A simple bash implementation of the pomodori technique
+Exec=x-terminal-emulator -e /home/decadenza/.local/share/fragola/fragola.sh
+Icon=/home/decadenza/.local/share/fragola/media/icon.ico
+Type=Application
+Categories=GNOME;GTK;Utility
+Version=10.12a
+Keywords=tool;time;
