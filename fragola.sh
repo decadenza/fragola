@@ -2,7 +2,6 @@
 WORK=1800
 PAUSE=600
 CURPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo "$CURPATH/media/icon.ico"
 echo $(date +"%T") "Fragola started"
 notify-send -i "$CURPATH/media/icon.ico" "Start to work" "It's time to work. Any distraction is forbidden!" && paplay "$CURPATH/media/start.ogg"
 while true; do
